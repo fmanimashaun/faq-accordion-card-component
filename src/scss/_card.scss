@@ -31,6 +31,7 @@
   }
 
   &__header {
+    padding-inline: clamp(1.5rem, calc(-0.06rem + 6.67vw), 5.94rem);
     @media only screen and (min-width: 768px) {
       flex-basis: 388px;
       display: flex;
@@ -41,11 +42,12 @@
       background-position: 100% 0%;
       background-repeat: no-repeat;
       overflow-x: hidden;
+      padding-inline: 0;
     }
 
     &-img {
       display: block;
-      width: 80%;
+      width: 90%;
       margin-inline: auto;
       margin-block-end: -25%;
 
@@ -84,10 +86,8 @@
 
       &--shadow {
         display: block;
-        width: 80%;
-        margin-inline: auto;
         margin-block-end: 25px;
-
+        width: 90%;
         @media only screen and (min-width: 768px) {
           display: none;
         }
@@ -96,6 +96,10 @@
   }
 
   &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: colors.$white;
     box-shadow: 0 50px 50px -20px rgba(53, 18, 122, 0.497159);
     border-radius: 23px;
@@ -125,6 +129,7 @@
   }
 
   &__body-wrapper {
+    align-self: stretch;
     display: flex;
     flex-direction: column;
     gap: 17px;
