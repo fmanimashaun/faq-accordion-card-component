@@ -1,26 +1,26 @@
-Big Shoulders Display Variable Font
-===================================
+Kumbh Sans Variable Font
+========================
 
-This download contains Big Shoulders Display as both a variable font and static fonts.
+This download contains Kumbh Sans as both a variable font and static fonts.
 
-Big Shoulders Display is a variable font with this axis:
+Kumbh Sans is a variable font with this axis:
   wght
 
 This means all the styles are contained in a single file:
-  BigShouldersDisplay-VariableFont_wght.ttf
+  KumbhSans-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Big Shoulders Display:
-  static/BigShouldersDisplay-Thin.ttf
-  static/BigShouldersDisplay-ExtraLight.ttf
-  static/BigShouldersDisplay-Light.ttf
-  static/BigShouldersDisplay-Regular.ttf
-  static/BigShouldersDisplay-Medium.ttf
-  static/BigShouldersDisplay-SemiBold.ttf
-  static/BigShouldersDisplay-Bold.ttf
-  static/BigShouldersDisplay-ExtraBold.ttf
-  static/BigShouldersDisplay-Black.ttf
+in those cases you can use the static font files for Kumbh Sans:
+  static/KumbhSans-Thin.ttf
+  static/KumbhSans-ExtraLight.ttf
+  static/KumbhSans-Light.ttf
+  static/KumbhSans-Regular.ttf
+  static/KumbhSans-Medium.ttf
+  static/KumbhSans-SemiBold.ttf
+  static/KumbhSans-Bold.ttf
+  static/KumbhSans-ExtraBold.ttf
+  static/KumbhSans-Black.ttf
 
 Get started
 -----------
