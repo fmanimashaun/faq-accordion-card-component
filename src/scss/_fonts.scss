@@ -1,16 +1,9 @@
 /* import fonts */
 
-/* Lexend Deca */
+/* Kumbh Sans */
 @font-face {
-  font-family: 'Lexend Deca';
-  src: url("../fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf") format('TrueType');
+  font-family: 'Kumbh Sans';
+  src: url("../fonts/Kumbh_Sans/KumbhSans-VariableFont_wght.ttf") format('TrueType');
 }
 
-/* Big Shoulders Display */
-@font-face {
-  font-family: 'Big Shoulders Display';
-  src: url("../fonts/Big_Shoulders_Display/BigShouldersDisplay-VariableFont_wght.ttf") format('TrueType');
-}
-
-$primary-ff: 'Lexend Deca', sans-serif;
-$secondary-ff: 'Big Shoulders Display', cursive;
+$primary-ff:     'Kumbh Sans', sans-serif;
