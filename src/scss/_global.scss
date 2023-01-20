@@ -34,6 +34,10 @@ body {
   margin-inline: auto;
   padding: 88px 24px;
 
+  @media only screen and (min-width: 768px) {
+    padding: 88px 0;
+  }	
+
   & > * {
     max-width: 100%;
   }
