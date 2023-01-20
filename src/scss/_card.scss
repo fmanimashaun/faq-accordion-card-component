@@ -8,7 +8,7 @@
   margin-inline: auto;
 
   @media only screen and (min-width: 768px) {
-    padding: calc(clamp(6.00rem, calc(-7.22rem + 27.54vw), 11.94rem) / 2);
+    padding: calc(clamp(6rem, calc(-7.22rem + 27.54vw), 11.94rem) / 2);
   }
 }
 
@@ -26,7 +26,7 @@
     gap: 87px;
     max-width: 920px;
     background: colors.$white;
-    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    box-shadow: 0 50px 50px -20px rgba(53, 18, 122, 0.497159);
     border-radius: 23px;
   }
 
@@ -71,7 +71,7 @@
           position: absolute;
           inset-inline-start: 0;
           display: block;
-          width: clamp(6.00rem, calc(-7.22rem + 27.54vw), 11.94rem);
+          width: clamp(6rem, calc(-7.22rem + 27.54vw), 11.94rem);
           height: auto;
           transform: translate(-50%, 25%);
         }
@@ -97,9 +97,9 @@
 
   &__body {
     background: colors.$white;
-    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    box-shadow: 0 50px 50px -20px rgba(53, 18, 122, 0.497159);
     border-radius: 23px;
-    padding-inline: clamp(1.50rem, calc(-0.06rem + 6.67vw), 5.94rem);
+    padding-inline: clamp(1.5rem, calc(-0.06rem + 6.67vw), 5.94rem);
     padding-block-end: clamp(3.06rem, calc(2.31rem + 3.19vw), 5.19rem);
 
     @media only screen and (min-width: 768px) {
