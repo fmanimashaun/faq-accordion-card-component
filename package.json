@@ -1,7 +1,7 @@
 {
-  "name": "3-column-preview-card-component",
+  "name": "faq-accordion-card-component",
   "version": "1.0.0",
-  "description": "This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. ",
+  "description": "This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
   "private": true,
   "scripts": {
     "watch": "webpack --watch",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+git+https://github.com/fmanimashaun/3-column-preview-card-component.git"
+    "url": "git+git+https://github.com/fmanimashaun/faq-accordion-card-component.git"
   },
   "keywords": [],
   "author": "Engr. Animashaun Fisayo Michael",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fmanimashaun/3-column-preview-card-component/issues"
+    "url": "https://github.com/fmanimashaun/faq-accordion-card-component/issues"
   },
-  "homepage": "https://github.com/fmanimashaun/3-column-preview-card-componentt#readme",
+  "homepage": "https://github.com/fmanimashaun/faq-accordion-card-component#readme",
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/plugin-transform-modules-commonjs": "^7.19.6",

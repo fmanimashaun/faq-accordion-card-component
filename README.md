@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/fmanimashaun/3-column-preview-card-component)
-- [Live Site URL](https://fmanimashaun.github.io/3-column-preview-card-component/)
+- [Solution URL](https://github.com/fmanimashaun/faq-accordion-card-component)
+- [Live Site URL](https://fmanimashaun.github.io/faq-accordion-card-component/)
 
 ## My process
 
