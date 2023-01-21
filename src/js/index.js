@@ -1,25 +1,29 @@
 import '../scss/styles.scss';
 
 // get DOM elements
+const faqContainer = document.querySelector('.faq-card__body-wrapper'); // get faq container
 
-const questionBtns = document.querySelectorAll('.faq-card__qa-question'); // get all question buttons
-const qaWrapperCollection = document.querySelectorAll('.faq-card__qa-wrapper'); // get all qa wrapper
+// function to hide or show answer
+const hideOrShowAnswer = (e) => {
+  // get all question-answer wrapper
+  const qaList = document.querySelectorAll('.faq-card__qa-wrapper');
 
-questionBtns.forEach((btn) => {
-  btn.addEventListener('click', (e) => {
+  if (e.target.matches('button')) {
+    // get parent element of the clicked button
     const parentEl = e.target.parentElement; // get parent element of the clicked button
 
     // check if parent element has class active
     if (parentEl.classList.contains('active')) {
       parentEl.classList.remove('active');
     } else {
-      // remove active class from all qa wrapper
-      qaWrapperCollection.forEach((qaWrapper) => {
-        qaWrapper.classList.remove('active');
+      qaList.forEach((qa) => {
+        qa.classList.remove('active');
       });
 
-      // add active class to parent element
+      // add class active to parent element
       parentEl.classList.add('active');
     }
-  });
-});
+  }
+};
+
+faqContainer.addEventListener('click', hideOrShowAnswer);
